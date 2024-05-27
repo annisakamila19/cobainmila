@@ -29,7 +29,7 @@
 <body>
   
    <!-- Ganti Audio di sini -->
-   <audio src="https://feeldreams.github.io/djikhlas.mp3" id="linkmp3" class="sembunyi"></audio>
+   <audio src="https://github.com/annisakamila19/cobainmila/blob/main/Justin%20Bieber%20-%20Off%20My%20Face.mp3" id="linkmp3" class="sembunyi"></audio>
    
    <div id="bodyblur">
      <!-- Wallpaper --><img src="https://feeldreams.github.io/wp9.jpg" id="wallpaper"/><div id="beneranblur"></div>
@@ -74,9 +74,9 @@
        <p id="pesan5" class="gaya2">Nambah tua aja ya, hehe</p>
        <p id="pesan6" class="gaya2">Moga panjang umur biar tiap tahun bisa traktirin aku wkwk 😆❤️</p>
        <p id="pesan7" class="gaya2">Sehat selalu ya!</p>
-       <p id="pesan8" class="gaya2">Sehat selalu ya!</p>
+       <p id="pesan8" class="gaya2">Thank you for always being proud of yourself!😉</p>
 
-       <p id="pesan9" class="gaya2">Canda wkwwk :v</p>
+       <p id="pesan9" class="gaya2">JUST KIDDING wkwkwk </p>
        <p id="pesan10" class="gaya2">Oh iya, semoga di hari spesialmu ini kamu dapat menjadi pribadi yang lebih baik yaa.. 🥳❤️</p>
        <p id="pesan11" class="gaya2">Happy Level Up Day!! 🥳</p>
 
@@ -105,7 +105,7 @@
   
   async function inipesan(){
     var { value: nama } = await swals.fire({
-           title: 'Masukin Nama Kamu', input: 'text',
+           title: 'PUT YOUR NAME HERE', input: 'text',
        });
        if(nama && nama.length < 11){
          window.nama = nama;
@@ -118,9 +118,9 @@
 
   //Variable Pertanyaan Akhir
   var tanya = 'Do you want a gift? 😶❤️';
-  var opstanya = 'Yes, i want 😆';
-  var tompositif = 'Yes';
-  var tomnegatif = 'Sure';
+  var opstanya = 'Choose one 😆';
+  var tompositif = 'Sure';
+  var tomnegatif = 'No, thanks';
     
     async function menuju(){pesanwhatsapp = "Thank you " + nama + " ultah ><";await swals.fire('OK!', 'Kirim jawabannya ke WhatsApp aku, ya!', 'success');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;}
 </script>
